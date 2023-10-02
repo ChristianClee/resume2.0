@@ -1,0 +1,79 @@
+
+.container{
+  display: flex;
+  gap: 1rem;  
+  
+  margin-top: .5rem;
+}
+.aside{
+  flex: 0 1 30%;
+  border-radius: 1rem;
+  background-color: rgb(97, 97, 95);
+}
+.main{
+  flex: 0 1 70%;
+  font-size: 1.3rem;
+  background-color: rgb(229, 227, 212);
+  border-radius: 1rem;
+}
+.contacts{
+  flex: 0 0 24rem;;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  border-radius: .5rem;
+}
+
+.bigContainer{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.shortContainer{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+style.container{
+}
+.scills{
+}
+
+.shortContainer2{
+  display: flex;
+  gap: 2rem;
+}
+.dateContainer{
+  display: flex;
+  gap: 1rem;
+  line-height: 2rem;
+  
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
+}
+.dateTitle{
+  font-family: Play;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.dateContainer ul li{
+  position: relative;
+  padding-left: 2rem;
+  margin-top: .5rem;
+}
+.dateContainer ul li::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  /* background-color: red; */
+  border: .1px solid red;
+  transform: translateY(-50%);
+}

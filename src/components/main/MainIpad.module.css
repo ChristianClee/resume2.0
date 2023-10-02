@@ -1,0 +1,99 @@
+
+.container{
+  position: relative;
+  border-radius: 1rem;
+  margin-top: .5rem;
+}
+
+.mainScroll{
+  margin-left: 1rem;
+}
+
+
+.asideBtn{
+  position: absolute;
+  height: 100%;
+  width: 5.5rem;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  background-color: rgb(255, 170, 0);
+}
+.asideInscript{
+  writing-mode: vertical-lr; 
+  text-orientation: upright;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 2rem;
+  font-family: Play;
+  font-weight: 800;
+}
+.asideContainerLittle{
+  margin-right: 5.5rem;
+}
+
+.contacts{
+  flex: 0 0 24rem;;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  border-radius: .5rem;
+}
+
+.bigContainer{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.shortContainer{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+style.container{
+}
+.scills{
+}
+
+.shortContainer2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.dateContainer{
+  display: flex;
+  gap: 1rem;
+  line-height: 2rem;
+  
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
+}
+.dateTitle{
+  font-family: Play;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.dateContainer ul li{
+  position: relative;
+  padding-left: 2rem;
+  margin-top: .5rem;
+}
+.dateContainer ul li::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  /* background-color: red; */
+  border: .1px solid red;
+  transform: translateY(-50%);
+}

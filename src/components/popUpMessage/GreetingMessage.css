@@ -1,0 +1,59 @@
+.greetingPopUp{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1, 1, 1, 0.834);
+  z-index: 113;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.greetingPopUp__massage-body{
+  overflow: hidden;
+  width: 90%;
+  height: 25rem;
+  background-color: rgba(255, 255, 255, 0.607);
+  box-shadow: 0 0 13px 4px rgb(255, 255, 255);
+  border-radius: 1.5rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+.greetingPopUp__burger-box{
+  position: relative;
+  width: 100%;
+  /* height: var(--heightHeader); */
+  height: 4.5rem;
+  background-color: rgb(87, 96, 20);
+}
+.greetingPopUp__box{
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.greetingPopUp__text{
+  padding: 1rem;
+}
+.greetingPopUp__title{
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.greetingPopUp__paragraph{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+
+@media(min-width:450px){
+  .greetingPopUp__massage-body{
+    width: 47rem;
+
+  }
+  .greetingPopUp__paragraph{
+    font-size: 1.7rem;
+  }
+}

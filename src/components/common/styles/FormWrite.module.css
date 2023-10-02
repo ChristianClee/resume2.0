@@ -1,0 +1,177 @@
+/* *FormWrite styles  =====================================*/
+.fone {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.779);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.container {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  display: flex;
+}
+/* *FormWrite styles  ======================================*/
+
+/* * MessagePart styles ==================================== */
+.textAria {
+  order: 1;
+  flex: 0 0 50%;
+  background-color: rgb(251, 230, 3);
+  transform: translateY(-100vh);
+  transition: 0.5s;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textAriaActive {
+  transform: translateY(0);
+}
+.containerImeges {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.imeges {
+  fill: black;
+}
+.imeges:hover {
+  fill: rgb(255, 6, 14);
+}
+/* * MessagePart styles ==================================== */
+
+/* * InputPart styles ======================================= */
+.inputForm {
+  order: 2;
+  background-color: rgb(37, 37, 37);
+  flex: 0 0 50%;
+  transform: translateY(100vh);
+  transition: 0.5s;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.burgerBox {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 100%;
+  height: 4.5rem;
+}
+.contentContainer {
+  margin-top: -5rem;
+  width: 100%;
+}
+.inputInscript {
+  text-align: center;
+}
+
+.title{
+  color: rgb(37, 37, 37);
+  font-size: 2.3rem;
+  line-height: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.title::before{
+  background-color: yellow;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: rgb(196, 203, 5);
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 6rem;
+}
+.inputFormActive {
+  transform: translateY(0);
+}
+/* * InputPart styles ====================================== */
+
+@media (max-width: 1200px) {
+  .container {
+    width: 93%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    width: 93%;
+    height: 90%;
+  }
+  .inputForm {
+    order: 1;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 0;
+  }
+  .textAria {
+    order: 2;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+  .textAria {
+    order: 2;
+    transform: translateX(-100vw);
+  }
+  .inputForm {
+    order: 1;
+    transform: translateX(100vw);
+  }
+  .textAriaActive {
+    transform: translateX(0);
+  }
+  .inputFormActive {
+    transform: translateX(0);
+  }
+  .contentContainer {
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 93%;
+    height: 80%;
+  }
+  .imeges {
+    width: 60px;
+    height: 60px;
+  }
+  .inputContainer {
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 93%;
+    height: 90%;
+  }
+  .imeges {
+    width: 40px;
+    height: 40px;
+  }
+  .inputContainer {
+    gap: 3rem;
+  }
+}

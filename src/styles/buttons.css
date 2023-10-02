@@ -1,0 +1,37 @@
+.item__button{
+  font-size: 1.8rem;
+  height: 3rem;
+  border-radius: 1rem;
+  position: relative;
+  background-color: transparent;
+  /* color: rgb(255, 230, 0); */
+}
+.item__button::before,
+.item__button::after{
+  content: "";
+  position: absolute;
+  top:0;
+  left: 50%;
+  width: 30%;
+  height: 100%;
+  border-radius: 1rem;
+  animation: submit 1s linear infinite alternate;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.item__button::after{
+  animation: none;
+  transition: .25s;
+}
+.item__button:hover::after{
+   width: 100%;
+}
+
+@keyframes submit{
+  0%{
+    width: 37%;
+  }
+  100%{
+     width: 45%;
+  }
+}

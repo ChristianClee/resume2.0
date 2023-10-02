@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.levels{
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+}
+.name{
+  font-size: 1.8rem;
+  color: rgb(31, 31, 28);
+}
+.level{
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid wheat;
+  border-radius: 50%;
+}
+
+.levelActiveRed{
+  background-color: rgb(128, 19, 43);
+  /* animation: changeColorRed 2s linear infinite alternate; */
+}
+.levelActiveYellow{
+  background-color: rgb(114, 47, 58)
+  /* background-color: rgb(255, 0, 0); */
+  /* animation: changeColorYellow 2s linear infinite alternate; */
+}
+.levelActiveGreen{
+  background-color: rgb(114, 74, 81)
+  /* background-color: rgb(255, 0, 0); */
+  /* animation: changeColorGreen 2s linear infinite alternate; */
+}
+
+@keyframes changeColorRed{
+  0%{  background-color: rgb(69, 69, 63);}
+  100%{  background-color: rgb(207, 173, 35);}
+}
+@keyframes changeColorYellow{
+  0%{  background-color: rgb(69, 69, 63);}
+  100%{  background-color: rgb(201, 171, 18);}
+}
+@keyframes changeColorGreen{
+  0%{  background-color: rgb(69, 69, 63);}
+  100%{  background-color: rgb(22, 245, 59);}
+}
