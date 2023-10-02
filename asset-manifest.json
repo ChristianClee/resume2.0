@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/MyResume/static/css/main.c04bc015.css",
+    "main.js": "/MyResume/static/js/main.c3abf418.js",
+    "static/media/myPhoto.jpg": "/MyResume/static/media/myPhoto.e3e209c3a5d20daa93b5.jpg",
+    "static/media/gear.svg": "/MyResume/static/media/gear.40afdd4914a5caffdf6f6f2b9fa14ae9.svg",
+    "static/media/react.svg": "/MyResume/static/media/react.8c41ab3457525cf99235340c31ae7dac.svg",
+    "static/media/phone.svg": "/MyResume/static/media/phone.624fafc9954e6cf2cd0584bcdd60d695.svg",
+    "static/media/info.svg": "/MyResume/static/media/info.41822eca944071ade983fe25011b8277.svg",
+    "static/media/interface.svg": "/MyResume/static/media/interface.967e2ef43ed5c810bba3eb0e7778c87e.svg",
+    "static/media/js.svg": "/MyResume/static/media/js.78e724d4f1e48ddf945a8d7135fdffd5.svg",
+    "static/media/person2.svg": "/MyResume/static/media/person2.2a362c7089713987004dfe385d2d7628.svg",
+    "static/media/telegram.svg": "/MyResume/static/media/telegram.8971f351ab0598f6e9212764024f5eb1.svg",
+    "static/media/place.svg": "/MyResume/static/media/place.47d7a724736366b679e5c8419cec6e9e.svg",
+    "static/media/certification.svg": "/MyResume/static/media/certification.df8d0b5f4ae7e3d96b9d96186332fca8.svg",
+    "static/media/officeBag.svg": "/MyResume/static/media/officeBag.0c1e6141c5d9e0096d8634977e431040.svg",
+    "static/media/envelope.svg": "/MyResume/static/media/envelope.b2ce0181110001542e020cfa1c11ffd6.svg",
+    "static/media/css3.svg": "/MyResume/static/media/css3.cf802aee7e5f6888d2f10002a8960347.svg",
+    "static/media/graduation.svg": "/MyResume/static/media/graduation.6a6f81c2ef3e1c663e245efbc3419ad9.svg",
+    "static/media/person.svg": "/MyResume/static/media/person.6eedd586ac61a3f86ba3492b66d5aba9.svg",
+    "index.html": "/MyResume/index.html",
+    "main.c04bc015.css.map": "/MyResume/static/css/main.c04bc015.css.map",
+    "main.c3abf418.js.map": "/MyResume/static/js/main.c3abf418.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c04bc015.css",
+    "static/js/main.c3abf418.js"
+  ]
+}
