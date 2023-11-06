@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/resume2.0/static/css/main.49b246ce.css",
-    "main.js": "/resume2.0/static/js/main.b218992e.js",
+    "main.js": "/resume2.0/static/js/main.347b20e9.js",
     "static/media/JsCertificate.jpg": "/resume2.0/static/media/JsCertificate.80fb9f750279458ff437.jpg",
     "static/media/myPhoto.jpg": "/resume2.0/static/media/myPhoto.e3e209c3a5d20daa93b5.jpg",
     "static/media/gear.svg": "/resume2.0/static/media/gear.40afdd4914a5caffdf6f6f2b9fa14ae9.svg",
     "static/media/react.svg": "/resume2.0/static/media/react.8c41ab3457525cf99235340c31ae7dac.svg",
+    "static/media/bag.svg": "/resume2.0/static/media/bag.34d495e10a111526a27a4c80492fd6e0.svg",
     "static/media/phone.svg": "/resume2.0/static/media/phone.624fafc9954e6cf2cd0584bcdd60d695.svg",
     "static/media/info.svg": "/resume2.0/static/media/info.41822eca944071ade983fe25011b8277.svg",
     "static/media/interface.svg": "/resume2.0/static/media/interface.967e2ef43ed5c810bba3eb0e7778c87e.svg",
@@ -21,10 +22,10 @@
     "static/media/person.svg": "/resume2.0/static/media/person.6eedd586ac61a3f86ba3492b66d5aba9.svg",
     "index.html": "/resume2.0/index.html",
     "main.49b246ce.css.map": "/resume2.0/static/css/main.49b246ce.css.map",
-    "main.b218992e.js.map": "/resume2.0/static/js/main.b218992e.js.map"
+    "main.347b20e9.js.map": "/resume2.0/static/js/main.347b20e9.js.map"
   },
   "entrypoints": [
     "static/css/main.49b246ce.css",
-    "static/js/main.b218992e.js"
+    "static/js/main.347b20e9.js"
   ]
 }
